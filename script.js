@@ -3,5 +3,5 @@ var button=document.getElementById("b");
 var p = document.getElementById("output");
 
 button.addEventListener("click",function(){
-p.innerHTML=input.value;
+p.textContent="Zdravo,"+input.value;
 });
